@@ -35,3 +35,4 @@ RUN wget $GRADLE_URL -O gradle.zip \
  && mkdir .gradle
 
 ENV PATH="/home/user/gradle/bin:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools:${PATH}"
+
